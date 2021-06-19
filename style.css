@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 10px;
+  background: url("./pexels-mark-angelo-1587927.jpg") bottom center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  gap: 5em;
+}
+
+h3 {
+  color: #fff;
+  font-size: 7em;
+}
+
+h5 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 200;
+}
+
+a {
+  color: #cd8479;
+}
+
+.keys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.keys .key {
+  border: 0.4rem solid #f4c187;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 0.7rem 0.2rem;
+  -webkit-transition: all 0.11s ease;
+  transition: all 0.11s ease;
+  width: 8rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 0.5rem #cd8479;
+  cursor: pointer;
+}
+
+.keys .playing {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  border-color: #623164;
+  -webkit-box-shadow: 0 0 1rem #623164;
+          box-shadow: 0 0 1rem #623164;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  color: #f4c187;
+}
+/*# sourceMappingURL=style.css.map */
